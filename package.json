@@ -6,7 +6,8 @@
   "author": "iguoya <375478250@qq.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.4"
+    "vuepress": "^1.5.4",
+    "vuepress-plugin-autobar": "boboidream/vuepress-bar"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
