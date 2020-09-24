@@ -5,6 +5,7 @@ module.exports = {
 //  dest: 'public',
   plugins: [
     ['autobar'],
+    ['vuepress-plugin-mermaidjs'],
   ],
   themeConfig: {
     nav: [
