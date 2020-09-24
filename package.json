@@ -1,0 +1,15 @@
+{
+  "name": "mathematics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:iguoya/mathematics.git",
+  "author": "iguoya <375478250@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.4"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
