@@ -6,15 +6,10 @@ module.exports = {
   plugins: [
     ['autobar'],
     ['vuepress-plugin-mermaidjs'],
-    [
-      'vuepress-plugin-mathjax',
-      {
-        target: 'svg',
-        macros: {
-          '*': '\\times',
-        },
-      },
-    ],
+    '@maginapp/vuepress-plugin-katex',
+    {
+       delimiters: 'dollars'
+    }
   ],
   themeConfig: {
     nav: [
