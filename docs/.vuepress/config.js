@@ -1,10 +1,11 @@
+
 module.exports = {
   title: ' Mathematics Notebook',
   description: ' Note, Practice and Solving Problems',
   base: '/mathematics/',
 //  dest: 'public',
   plugins: [
-    ['autobar'],
+    'autobar',
     ['vuepress-plugin-mermaidjs'],
     '@maginapp/vuepress-plugin-katex',
     {
